@@ -25,7 +25,7 @@ X-Callback-URL(and its parameters) Remain optional. LabGear will function as exp
 
 ### Filter
 
- - `lablist` - Lists an array of Lab tests (in the Main App View)
+ - **`lablist`** - Lists an array of Lab tests (in the Main App View)
  - Param: `tags` (Lab Short-Abbreviation separated by a comma, string)
  - Eg. `labgear://x-callback-url/lablist?tags=Alb,Glu`
  - Param: ids (Lab identifiers separated by a comma)
@@ -36,7 +36,7 @@ X-Callback-URL(and its parameters) Remain optional. LabGear will function as exp
 ### Notes
 
 
- - `notes` - Adds a string as a note to the lab).
+ - **`notes`** - Adds a string as a note to the lab).
  - Params: `text` (URL Encoded string).
  - Optional Param: `id` (Lab Identifier)
  - Eg. `labgear://x-callback-url/notes?text=SAAG%20is%20low%20in%20leukemias&id=SAAG`    (This will add the note to the lab with identifier SAAG.
