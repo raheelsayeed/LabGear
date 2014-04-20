@@ -26,11 +26,11 @@ X-Callback-URL(and its parameters) Remain optional. LabGear will function as exp
 ### Filter
 
  - `lablist` - Lists an array of Lab tests (in the Main App View)
- - Params: `tags` (Lab Short-Abbreviation separated by a comma, string)
+ - Param: `tags` (Lab Short-Abbreviation separated by a comma, string)
  - Eg. `labgear://x-callback-url/lablist?tags=Alb,Glu`
-
  - Param: ids (Lab identifiers separated by a comma)
  - Eg. `labgear://x-callback-url/lablist?ids=SAAG,PT`
+ - **Note**: `tags` param will take precedence over `ids` if both are present.
 
 
 ### Notes
