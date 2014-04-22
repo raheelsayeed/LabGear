@@ -1,6 +1,7 @@
-# LabGear URL-based API
+LabGear URL-based API
+=====================
 
-### For app-version 3.0 & up
+#### For app-version 3.0 & up
 
 
 **Note**: `labgear://` scheme works in all versions but the **`x-callback-url`** protocol is supported only in version 3.0 & up. To check if the installed LabGear app supports `x-callback-url`, a `[ .. canOpenURL]` call can be made to `x-labgear://`
@@ -9,7 +10,7 @@
 ----------
 
 
-###X-Callback-URL:
+### X-Callback-URL:
 
 X-Callback-URL(and its parameters) Remain optional. LabGear will function as expected without any of those.
 
